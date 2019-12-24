@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pashatay/typing-game/static/css/main.3332b0fc.chunk.css",
+    "main.js": "/pashatay/typing-game/static/js/main.b8749137.chunk.js",
+    "main.js.map": "/pashatay/typing-game/static/js/main.b8749137.chunk.js.map",
+    "runtime-main.js": "/pashatay/typing-game/static/js/runtime-main.9f06ec53.js",
+    "runtime-main.js.map": "/pashatay/typing-game/static/js/runtime-main.9f06ec53.js.map",
+    "static/js/2.2237149c.chunk.js": "/pashatay/typing-game/static/js/2.2237149c.chunk.js",
+    "static/js/2.2237149c.chunk.js.map": "/pashatay/typing-game/static/js/2.2237149c.chunk.js.map",
+    "index.html": "/pashatay/typing-game/index.html",
+    "precache-manifest.4db836dec068d49c09f4299926f03af3.js": "/pashatay/typing-game/precache-manifest.4db836dec068d49c09f4299926f03af3.js",
+    "service-worker.js": "/pashatay/typing-game/service-worker.js",
+    "static/css/main.3332b0fc.chunk.css.map": "/pashatay/typing-game/static/css/main.3332b0fc.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f06ec53.js",
+    "static/js/2.2237149c.chunk.js",
+    "static/css/main.3332b0fc.chunk.css",
+    "static/js/main.b8749137.chunk.js"
+  ]
+}
