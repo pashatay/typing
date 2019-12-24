@@ -1,43 +1,26 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import "./App.css";
+import useMyState from "./useMyState";
 
 function App() {
-  const STARTING_TIME = 15;
-
-  const [text, setText] = useState("");
-  const [timeRemaining, setTimeRemaining] = useState(STARTING_TIME);
-  const [start, setStart] = useState(false);
-  const textBoxRef = useRef(null);
-
-  function startGame() {
-    setStart(true);
-    setTimeRemaining(STARTING_TIME);
-    setText("");
-    textBoxRef.current.disabled = false;
-    textBoxRef.current.focus();
-  }
-
-  useEffect(() => {
-    if (start && timeRemaining > 0) {
-      setTimeout(() => {
-        setTimeRemaining(time => time - 1);
-      }, 1000);
-    } else if (timeRemaining === 0) {
-      setStart(false);
-    }
-  }, [timeRemaining, start]);
-  function handleChange(e) {
-    const { value } = e.target;
-    setText(value);
-  }
-  function wordsCount(text) {
-    const words = text.trim().split(" ");
-    return words.filter(word => word !== "").length;
-  }
+  const {
+    start,
+    handleChange,
+    text,
+    timeRemaining,
+    startGame,
+    wordsCount,
+    textBoxRef
+  } = useMyState(60);
 
   return (
     <div>
       <h1>How fast do you type?</h1>
+      <p>
+        To get the most accurate score, we reccomend to open any random book or
+        article and re-type the text from there. Press start and start typing
+        right away. When time is over, you will get your score.
+      </p>
       <textarea
         ref={textBoxRef}
         disabled={!start}
@@ -49,7 +32,10 @@ function App() {
       <button disabled={start} onClick={startGame}>
         start
       </button>
-      <h4>Word count:{timeRemaining === 0 ? wordsCount(text) : "???"} </h4>
+      <h4>
+        Result:
+        {timeRemaining === 0 ? `${wordsCount(text)} words per minute` : ""}
+      </h4>
     </div>
   );
 }

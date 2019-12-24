@@ -1,6 +1,6 @@
 html,
 body {
-  background: black;
+  background: rgb(19, 18, 18);
   color: #00b800;
   margin: 0;
   padding: 0;
@@ -48,5 +48,10 @@ textarea {
   padding: 10px;
 }
 textarea:disabled {
-  background-color: #a5a2a2;
+  background-color: #bebbbb;
+  border: 3px solid #00b800;
+}
+p {
+  font-size: 1.5rem;
+  margin: 4%;
 }
