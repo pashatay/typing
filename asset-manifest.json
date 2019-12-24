@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/typing-game/static/css/main.3332b0fc.chunk.css",
-    "main.js": "/typing-game/static/js/main.2e647944.chunk.js",
-    "main.js.map": "/typing-game/static/js/main.2e647944.chunk.js.map",
-    "runtime-main.js": "/typing-game/static/js/runtime-main.6b3bf4d5.js",
-    "runtime-main.js.map": "/typing-game/static/js/runtime-main.6b3bf4d5.js.map",
-    "static/js/2.2237149c.chunk.js": "/typing-game/static/js/2.2237149c.chunk.js",
-    "static/js/2.2237149c.chunk.js.map": "/typing-game/static/js/2.2237149c.chunk.js.map",
-    "index.html": "/typing-game/index.html",
-    "precache-manifest.ddaefbb68fb963ffd473cfd7bf39e876.js": "/typing-game/precache-manifest.ddaefbb68fb963ffd473cfd7bf39e876.js",
-    "service-worker.js": "/typing-game/service-worker.js",
-    "static/css/main.3332b0fc.chunk.css.map": "/typing-game/static/css/main.3332b0fc.chunk.css.map"
+    "main.css": "/typing-gamee/static/css/main.3332b0fc.chunk.css",
+    "main.js": "/typing-gamee/static/js/main.f26e1d7d.chunk.js",
+    "main.js.map": "/typing-gamee/static/js/main.f26e1d7d.chunk.js.map",
+    "runtime-main.js": "/typing-gamee/static/js/runtime-main.bdb47700.js",
+    "runtime-main.js.map": "/typing-gamee/static/js/runtime-main.bdb47700.js.map",
+    "static/js/2.2237149c.chunk.js": "/typing-gamee/static/js/2.2237149c.chunk.js",
+    "static/js/2.2237149c.chunk.js.map": "/typing-gamee/static/js/2.2237149c.chunk.js.map",
+    "index.html": "/typing-gamee/index.html",
+    "precache-manifest.275feac36488eda165b95bb8cf795657.js": "/typing-gamee/precache-manifest.275feac36488eda165b95bb8cf795657.js",
+    "service-worker.js": "/typing-gamee/service-worker.js",
+    "static/css/main.3332b0fc.chunk.css.map": "/typing-gamee/static/css/main.3332b0fc.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b3bf4d5.js",
+    "static/js/runtime-main.bdb47700.js",
     "static/js/2.2237149c.chunk.js",
     "static/css/main.3332b0fc.chunk.css",
-    "static/js/main.2e647944.chunk.js"
+    "static/js/main.f26e1d7d.chunk.js"
   ]
 }
