@@ -11,7 +11,7 @@ function App() {
     startGame,
     wordsCount,
     textBoxRef
-  } = useMyState(60);
+  } = useMyState(10);
 
   return (
     <div>
@@ -34,7 +34,7 @@ function App() {
       </button>
       <h4>
         Result:
-        {timeRemaining === 0 ? `${wordsCount(text)} words per minute` : ""}
+        {timeRemaining === 0 ? ` ${wordsCount(text)} words per minute.` : ""}
       </h4>
     </div>
   );
