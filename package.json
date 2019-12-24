@@ -1,5 +1,5 @@
 {
-  "homepage": "https://pashatay.github.io/typing-game",
+  "homepage": "https://pashatay.github.io/typing-game/",
   "name": "typing-game",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,8 @@
     "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "surge": "^0.21.3"
   },
   "scripts": {
     "start": "react-scripts start",
