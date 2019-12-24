@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/pashatay/typing-game/static/css/main.3332b0fc.chunk.css",
-    "main.js": "/pashatay/typing-game/static/js/main.b8749137.chunk.js",
-    "main.js.map": "/pashatay/typing-game/static/js/main.b8749137.chunk.js.map",
-    "runtime-main.js": "/pashatay/typing-game/static/js/runtime-main.9f06ec53.js",
-    "runtime-main.js.map": "/pashatay/typing-game/static/js/runtime-main.9f06ec53.js.map",
-    "static/js/2.2237149c.chunk.js": "/pashatay/typing-game/static/js/2.2237149c.chunk.js",
-    "static/js/2.2237149c.chunk.js.map": "/pashatay/typing-game/static/js/2.2237149c.chunk.js.map",
-    "index.html": "/pashatay/typing-game/index.html",
-    "precache-manifest.4db836dec068d49c09f4299926f03af3.js": "/pashatay/typing-game/precache-manifest.4db836dec068d49c09f4299926f03af3.js",
-    "service-worker.js": "/pashatay/typing-game/service-worker.js",
-    "static/css/main.3332b0fc.chunk.css.map": "/pashatay/typing-game/static/css/main.3332b0fc.chunk.css.map"
+    "main.css": "/typing-game/static/css/main.3332b0fc.chunk.css",
+    "main.js": "/typing-game/static/js/main.2e647944.chunk.js",
+    "main.js.map": "/typing-game/static/js/main.2e647944.chunk.js.map",
+    "runtime-main.js": "/typing-game/static/js/runtime-main.6b3bf4d5.js",
+    "runtime-main.js.map": "/typing-game/static/js/runtime-main.6b3bf4d5.js.map",
+    "static/js/2.2237149c.chunk.js": "/typing-game/static/js/2.2237149c.chunk.js",
+    "static/js/2.2237149c.chunk.js.map": "/typing-game/static/js/2.2237149c.chunk.js.map",
+    "index.html": "/typing-game/index.html",
+    "precache-manifest.ddaefbb68fb963ffd473cfd7bf39e876.js": "/typing-game/precache-manifest.ddaefbb68fb963ffd473cfd7bf39e876.js",
+    "service-worker.js": "/typing-game/service-worker.js",
+    "static/css/main.3332b0fc.chunk.css.map": "/typing-game/static/css/main.3332b0fc.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f06ec53.js",
+    "static/js/runtime-main.6b3bf4d5.js",
     "static/js/2.2237149c.chunk.js",
     "static/css/main.3332b0fc.chunk.css",
-    "static/js/main.b8749137.chunk.js"
+    "static/js/main.2e647944.chunk.js"
   ]
 }
