@@ -17,9 +17,9 @@ function App() {
     <div>
       <h1>How fast do you type?</h1>
       <p>
-        To get the most accurate score, we reccomend to open any random book or
+        To get the most accurate score, we recommend opening any random book or
         article and re-type the text from there. Press start and start typing
-        right away. When time is over, you will get your score.
+        right away. When the time is over, you will get your score.
       </p>
       <textarea
         ref={textBoxRef}
