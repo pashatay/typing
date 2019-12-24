@@ -4,13 +4,13 @@ body {
   color: #00b800;
   margin: 0;
   padding: 0;
-  padding-top: 10px;
   font-family: "VT323", monospace;
   text-align: center;
 }
 
 body {
   font-weight: 400;
+  min-height: 80vh;
 }
 
 button {
@@ -53,5 +53,12 @@ textarea:disabled {
 }
 p {
   font-size: 1.5em;
-  margin: 4%;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 4%;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid #00b800;
+  background: #00b800;
+  color: black;
 }

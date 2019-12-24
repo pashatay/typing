@@ -11,15 +11,15 @@ function App() {
     startGame,
     wordsCount,
     textBoxRef
-  } = useMyState(10);
+  } = useMyState(60);
 
   return (
     <div>
       <h1>How fast do you type?</h1>
       <p>
-        To get the most accurate score, we recommend opening any random book or
-        article and re-type the text from there. Press start and start typing
-        right away. When the time is over, you will get your score.
+        To get the most accurate result, we recommend opening a random book or
+        article and transcribing the text from there. Press start and begin
+        typing right away! When the timer is up, you will get your result.
       </p>
       <textarea
         ref={textBoxRef}
